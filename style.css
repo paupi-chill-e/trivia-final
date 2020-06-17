@@ -1,0 +1,81 @@
+html {
+   background: url(hh.jpeg) no-repeat right fixed;
+    padding: 0;
+    margin: 0;
+    display: flex ;
+    /* con esto queda al centro en eje y uwu*/
+    width: 100ww;
+    height: 100vh;
+    /* con esto queda al centro en eje x uwu */
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(125,110,179) ;
+    font-family : Helvetica ;
+    box-sizing: border-box ;  
+    font-size: 25px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    padding-left: 60px;
+}
+.box {
+    width: 50%;
+    background-color: ghostwhite;
+    padding: 10px;
+    box-shadow: 0 0 10px 3px;
+    border: solid #222222c5 3px;
+}
+
+.box2 {
+   box-sizing: border-box ;
+   width: 50%;
+   border: solid #222222 5px;
+   padding: 5px;
+   background: rgb(253, 188, 10);
+   justify-content: flex-end;
+    
+}
+
+.box3 {
+   box-sizing: border-box ;
+   width: 50%;
+   border: solid #222222 5px;
+   padding: 5px;
+   background: rgb(226, 8, 99);
+   justify-content: flex-end;
+
+}
+
+.box4 {
+   box-sizing: border-box ;
+   width: 50%;
+   border: solid #222222 5px;
+   padding: 5px;
+   background: rgb(226, 8, 99);
+   justify-content: flex-end;
+
+}
+
+
+.box5 {
+   box-sizing: border-box ;
+   width: 50%;
+   border: solid #222222 5px;
+   padding: 5px;
+   background: rgb(226, 52, 8);
+   justify-content: flex-end;
+    
+}
+
+.box6 {
+   box-sizing: border-box ;
+   width: 50%;
+   border: solid #222222 5px;
+   padding: 5px;
+   background: rgb(226, 52, 8);
+   justify-content: flex-end;
+    
+}
+
+.disappear {
+  display: none;
+}

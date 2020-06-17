@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Pokémon</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <!-- primera pantalla -->
+    <div id="box">
+    <section id='bienvenido' class=''>
+    <h1 align="center">¡Bienvenido a la Poketrivia!</h1>
+    <h2>Para comenzar a jugar, ingresa tu nombre:</h2>
+    <input type="text" id='input-name' placeholder='Escribe tu nombre aquí'>
+    <button id='button-start'>Enviar</button>
+   </section>
+    </div>
+ <!-- segunda pantalla-->
+    <div id="box2">
+    <section id='main-menu' class='disappear'>
+    <h2 align="center">¡HOLA! Bienvenid@</h2>
+    <h3 id='user-name'></h3>
+    <p>Selecciona una opción para comenzar a jugar:</p>
+    <button id='button-first-generation'>1era generación</button>
+    <button id='button-second-generation'>2da generación</button>
+    </section>
+    </div>
+<!--posible primera categoría a elegir numero uno-->
+    <div id="box3" >
+      <section id='show-questions-first-generation' class='disappear'>
+    <h2>¡Primera generación!</h2>
+    <h3>1 ¿Cuál de los siguientes Pokémon es tipo agua?</h3>
+    <select id='form-question1-first-generation'>
+      <option value='A1'>Poliwhirl</option>
+      <option value='A2'>Polygon</option>
+      <option value='A3'>Ponyta</option>
+    </select>
+
+    <h3>2 ¿Cuál de los siguientes Pokémon no puede aprender el movimiento Vuelo?</h3>
+    <select id='form-question2-first-generation'>
+      <option value='B1'>Dodrio</option>
+      <option value='B2'>Charizard</option>
+      <option value='B3'>Hunter</option>
+    </select>
+
+    <h3>3 ¿Cuál de los siguientes Pokémon provienen de un DOME FOSIL?</h3>
+    <select id='form-question3-first-generation'>
+      <option value='C1'>Kabuto</option>
+      <option value='C2'>Omanyte</option>
+      <option value='C3'>Aerodactyl</option>
+    </select>
+    <button id='button-result-first-generation'>Enviar</button>
+
+    <section>
+      </div>
+      
+      <div id="box4" >
+        <section id='first-generation-result' class='disappear'>
+          <h2>Tus resultados son: </h2>
+          <h2 id=score1></h2>
+          <button id='play-again'>Jugar otra vez!</button>
+          </section>
+          </div>
+      
+
+  <!--posible primera categoría a elegir numero dos-->
+
+    <div id="box5" >
+      <section id='show-questions-second-generation' class='disappear'>
+    <h2>¡Segunda generación!</h2>
+    <h3>1 ¿Cuál de los siguientes Pokémon es un "Starter" de la segunda generación?</h3>
+    <select id='form-question1-second-generation'>
+      <option value='D1'>Piplop</option>
+      <option value='D2'>Litten</option>
+      <option value='D3'>Totodile</option>
+    </select>
+
+    <h3>2 ¿Quién es el personaje que te ayuda a calmar el "Gyarados Rojo"?</h3>
+    <select id='form-question2-second-generation'>
+      <option value='F1'>Profesor Oak</option>
+      <option value='F2'>Lance</option>
+      <option value='F3'>Profesor Elm</option>
+    </select>
+
+    <h3>3 ¿Cúal de los siguientes tipos de Pokémon NO aparece en la segunda generación?</h3>
+    <select id='form-question3-second-generation'>
+      <option value='G1'>Siniestro</option>
+      <option value='G2'>Hada</option>
+      <option value='G3'>Acero</option>
+    </select>
+    <button id='button-result-second-generation'>Enviar</button>
+    <section>
+      </div>
+
+    <div id="box6" >
+      <section id='second-generation-result' class='disappear'>
+        <h2>Tus resultados son: </h2>
+        <h2 id=score2></h2>
+        <button id='play-again-first'>Jugar otra vez!</button>
+        </section>
+        </div>
+
+
+
+
+
+
+  
+
+
+  
+    
+    
+    <script src="script.js"></script>
+  </body>
+  
+</html>
